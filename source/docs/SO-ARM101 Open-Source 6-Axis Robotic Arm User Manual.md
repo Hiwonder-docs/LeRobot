@@ -1,8 +1,5 @@
 # SO-ARM101 Open-Source 6-Axis Robotic Arm User Manual
 
-[TOC]
-
-
 
 ## **1\. LeRobot Introduction**
 
