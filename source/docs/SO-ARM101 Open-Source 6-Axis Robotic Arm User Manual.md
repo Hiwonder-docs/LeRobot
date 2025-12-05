@@ -303,7 +303,7 @@ conda activate lerobot
 
 Right-click `Extract All`.
 
-<img src="..\_static\media\chapter_1\section_2\image_54.png" class="common_img" style="width:300px;"/>
+<img src="..\_static\media\chapter_1\section_2\image_54.png" class="common_img" style="width:300px; display: block; margin: 0 auto;"/>
 
 Extract the **lerobot** project folder to the desktop.
 
