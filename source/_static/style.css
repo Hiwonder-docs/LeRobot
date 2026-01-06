@@ -11,6 +11,14 @@ section p {
 .wy-nav-side .wy-menu-vertical li.toctree-l2 button.toctree-expand{
     pointer-events:none;
 }
+.wy-menu-vertical > ul > li:last-child >a{
+    display: block;
+    width: fit-content;
+    margin: 1.618em;
+    background: #f98800;
+    color: #fff;
+    border-radius: 8px;
+}
 .wy-nav-side .wy-side-nav-search input[type=text]{
      border-color: #f98800;
 }
@@ -125,3 +133,4 @@ table {
         max-width: 1080px;
     }
 }
+
