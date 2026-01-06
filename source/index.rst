@@ -14,6 +14,9 @@ LeRobot SO-ARM101 Open-Source 6-Axis Robotic Arm
    docs/SO-ARM101 Open-Source 6-Axis Robotic Arm User Manual.md
    docs/Magnetic Encoder Servo Firmware Flashing Tutorial.md
 
+   Download <https://drive.google.com/drive/folders/1aKPQfxLK9cAWeM88YNUDLCStPtHpgntE>
+
+
 
 
 
