@@ -427,7 +427,7 @@ Refer to the related video: [1.Tutorials\\Video Tutorials\\3.3 Circuit Connectio
 
 **This section is for DIY component users. End users only need to be familiar with the content.**
 
-The servo names from top to bottom of the robotic arm are as follows: `gripper`, `wrist_flex`, `wrist_flex`, `elbow_flex`, `shoulder_lift` and `shoulder_pan`, corresponding to `ID6` to `ID1`.
+The servo names from top to bottom of the robotic arm are as follows: `gripper`, `wrist_roll`, `wrist_flex`, `elbow_flex`, `shoulder_lift` and `shoulder_pan`, corresponding to `ID6` to `ID1`.
 
 <img src="..\_static\media\chapter_1\section_3\image_7.png" class="common_img" style="width:1000px;"/>
 
