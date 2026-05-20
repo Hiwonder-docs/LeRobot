@@ -423,11 +423,17 @@ Refer to the related video: [1.Tutorials\\Video Tutorials\\3.3 Circuit Connectio
 
 <img src="..\_static\media\chapter_1\section_3\image_12.png" class="common_img" style="width:500px;"/>
 
-### 3.5 Servo ID Setting (Optional)
+### 3.5 Servo ID Setting (Optional for DIY Kit Only)
 
-**This section is for DIY component users. End users only need to be familiar with the content.**
+> [!NOTE]
+>
+> * **This section is only applicable to the DIY Kit. Check the kit version before proceeding.**
+>
+> * **For Pre-assembled Kits: Skip this section. The robotic arm comes fully configured and factory-calibrated out of the box. Feel free to proceed directly to the next chapter!**
+>
+> * **For DIY Kit: Please follow these steps. When assembling the robotic arm from scratch, the servo IDs must be assigned according to the instructions below prior to mechanical assembly.**
 
-The servo names from top to bottom of the robotic arm are as follows: `gripper`, `wrist_roll`, `wrist_flex`, `elbow_flex`, `shoulder_lift` and `shoulder_pan`, corresponding to `ID6` to `ID1`.
+The servo names from top to bottom of the robotic arm are as follows: `gripper`, `wrist_roll`, `wrist_flex`, `elbow_flex`, `shoulder_lift`, and `shoulder_pan`, corresponding to `ID6` to `ID1`.
 
 <img src="..\_static\media\chapter_1\section_3\image_7.png" class="common_img" style="width:1000px;"/>
 
