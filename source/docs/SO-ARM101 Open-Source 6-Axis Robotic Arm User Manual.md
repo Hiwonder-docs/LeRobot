@@ -389,9 +389,9 @@ The subsequent steps are the same for both **Ubuntu and Windows** systems; Here 
 > 
 > **On Ubuntu systems, it may be necessary to grant access to USB ports by running the following commands:**
 >
-> * **sudo chmod 666 /dev/ttyACM0**
+> **sudo chmod 666 /dev/ttyACM0**
 >
-> * **sudo chmod 666 /dev/ttyACM1**
+> **sudo chmod 666 /dev/ttyACM1**
 
 ### 3.1 Servo ID Setting (Optional for DIY Kit Only)
 
