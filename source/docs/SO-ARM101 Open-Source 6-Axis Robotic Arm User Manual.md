@@ -386,47 +386,15 @@ pip install -e ".[feetech]" -i https://pypi.tuna.tsinghua.edu.cn/simple
 The subsequent steps are the same for both **Ubuntu and Windows** systems; Here use **Windows** as an example.
 
 > [!NOTE]
-> 
-> **On Ubuntu systems, it may be necessary to grant access to USB ports by running the following commands: sudo chmod 666 /dev/ttyACM0 sudo chmod 666 /dev/ttyACM1**
+>
+> **On Ubuntu systems, it may be necessary to grant access to USB ports by running the following commands: **
+> **sudo chmod 666 /dev/ttyACM0 **
+> **sudo chmod 666 /dev/ttyACM1**
 
-### 3.1 Hardware Assembly
-
-Refer to the related video: [1.Tutorials\\Video Tutorials\\3.1 Hardware Assembly](https://drive.google.com/drive/folders/1bohRZgWKNnFfbfGrtFSwXgSWHF2A1B5c)
-
-### 3.2 Camera Installation
-
-Refer to the related video: [1.Tutorials\\Video Tutorials\\3.2 Camera Installation Tutorial](https://drive.google.com/drive/folders/1bohRZgWKNnFfbfGrtFSwXgSWHF2A1B5c)
-
-### 3.3 Circuit Connection
-
-Refer to the related video: [1.Tutorials\\Video Tutorials\\3.3 Circuit Connection Tutorial](https://drive.google.com/drive/folders/1bohRZgWKNnFfbfGrtFSwXgSWHF2A1B5c)
-
-### 3.4 Check the Port Number
-
-1. First, connect the follower arm, open **Device Manager**, and check the port number.
-
-<img src="..\_static\media\chapter_1\section_3\image_8.png" class="common_img" style="width:500px;"/>
-
-2. Then connect the leader arm and check the newly added port number.
-
-<img src="..\_static\media\chapter_1\section_3\image_9.png" class="common_img" style="width:500px;"/>
-
-3. To simplify future use, set fixed port numbers: Right-click the COM icon and select `Properties` → `Port Settings` → `Advanced`.
-
-<img src="..\_static\media\chapter_1\section_3\image_10.png" class="common_img" style="width:500px;"/>
-
-4. In the port number options, set the leader arm port to COM22 and the follower arm port to COM24. If COM22 is already marked as “in use,” it indicates that the port is occupied.
-
-<img src="..\_static\media\chapter_1\section_3\image_14.png" class="common_img" style="width:500px;"/>
-
-5. After setting the leader arm and follower arm port numbers to 22 and 24 respectively, the configuration is complete when displayed as shown in the figure.
-
-<img src="..\_static\media\chapter_1\section_3\image_12.png" class="common_img" style="width:500px;"/>
-
-### 3.5 Servo ID Setting (Optional for DIY Kit Only)
+### 3.1 Servo ID Setting (Optional for DIY Kit Only)
 
 > [!NOTE]
->
+> 
 > * **This section is only applicable to the DIY Kit. Check the kit version before proceeding.**
 >
 > * **For Pre-assembled Kits: Skip this section. The robotic arm comes fully configured and factory-calibrated out of the box. Feel free to proceed directly to the next chapter!**
@@ -441,9 +409,11 @@ The servo names from top to bottom of the robotic arm are as follows: `gripper`,
 
 > [!NOTE]
 >
-> **When setting the servo ID, only one servo should be connected to the main control board. The signal lines of the other servos should be disconnected.**
+> **When setting the servo ID, only one servo should be connected to the board. The signal lines of the other servos should be disconnected.**
+>
+> <img src="..\_static\media\chapter_1\section_3\image_7.1.png" class="common_img" style="width:500px;"/>
 
-#### 3.5.1 Follower arm
+#### 3.1.1 Follower arm
 
 Press **Win+R** to open the Control Panel, type **cmd**, and open the terminal.
 
@@ -468,9 +438,13 @@ lerobot-setup-motors --robot.type=so101_follower --robot.port=COM24
 
 For each servo name prompt, ensure the corresponding servo `ID` is inserted individually, then press Enter for automatic setup. When the next servo name prompt appears, it indicates that the previous servo setup is complete. Repeat the connection and press Enter for subsequent servos.
 
+>  [!NOTE]
+>
+> **Be sure to clearly label the configured ID numbers and do not mix them up. Each ID must be installed on its corresponding joint.**
+
 <img src="..\_static\media\chapter_1\section_3\image_3.png" class="common_img" style="width:1000px;"/>
 
-#### 3.5.2 Leader arm
+#### 3.1.2 Leader arm
 
 Enter the command to perform the `ID` setup.
 
@@ -480,9 +454,51 @@ lerobot-setup-motors --teleop.type=so101_leader --teleop.port=COM22
 
 Follow the same steps as for the follower arm.
 
+
+
+### 3.2 Hardware Assembly
+
+Refer to the related video: [1.Tutorials\\Video Tutorials\\3.1 Hardware Assembly](https://drive.google.com/drive/folders/1bohRZgWKNnFfbfGrtFSwXgSWHF2A1B5c)
+
+### 3.3 Camera Installation
+
+Refer to the related video: [1.Tutorials\\Video Tutorials\\3.2 Camera Installation Tutorial](https://drive.google.com/drive/folders/1bohRZgWKNnFfbfGrtFSwXgSWHF2A1B5c)
+
+### 3.4 Circuit Connection
+
+Refer to the related video: [1.Tutorials\\Video Tutorials\\3.3 Circuit Connection Tutorial](https://drive.google.com/drive/folders/1bohRZgWKNnFfbfGrtFSwXgSWHF2A1B5c)
+
+### 3.5 Check the Port Number
+
+1. First, connect the follower arm, open **Device Manager**, and check the port number.
+
+<img src="..\_static\media\chapter_1\section_3\image_8.png" class="common_img" style="width:500px;"/>
+
+2. Then connect the leader arm and check the newly added port number.
+
+<img src="..\_static\media\chapter_1\section_3\image_9.png" class="common_img" style="width:500px;"/>
+
+3. To simplify future use, set fixed port numbers: Right-click the COM icon and select `Properties` → `Port Settings` → `Advanced`.
+
+<img src="..\_static\media\chapter_1\section_3\image_10.png" class="common_img" style="width:500px;"/>
+
+4. In the port number options, set the leader arm port to COM22 and the follower arm port to COM24. If COM22 is already marked as “in use,” it indicates that the port is occupied.
+
+<img src="..\_static\media\chapter_1\section_3\image_14.png" class="common_img" style="width:500px;"/>
+
+5. After setting the leader arm and follower arm port numbers to 22 and 24 respectively, the configuration is complete when displayed as shown in the figure.
+
+<img src="..\_static\media\chapter_1\section_3\image_12.png" class="common_img" style="width:500px;"/>
+
+
+
 ## **4. Robotic Arm Control**
 
 ### 4.1 Calibration
+
+> [!NOTE]
+>
+> **Calibration is not required for the pre-assembled kit, and this section can be skipped. This procedure applies only to the DIY kit.**
 
 Calibrate the robot to ensure that the main robotic arm and the follower robotic arm have the same position values when in the same physical position.
 
