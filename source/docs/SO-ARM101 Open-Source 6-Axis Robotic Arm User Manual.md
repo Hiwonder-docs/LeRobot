@@ -396,12 +396,14 @@ The subsequent steps are the same for both **Ubuntu and Windows** systems; Here 
 ### 3.1 Servo ID Setting (Optional for DIY Kit Only)
 
 > [!NOTE]
-> 
+>
 > * **This section is only applicable to the DIY Kit. Check the kit version before proceeding.**
 >
 > * **For Pre-assembled Kits: Skip this section. The robotic arm comes fully configured and factory-calibrated out of the box. Feel free to proceed directly to the next chapter!**
 >
 > * **For DIY Kit: Please follow these steps. When assembling the robotic arm from scratch, the servo IDs must be assigned according to the instructions below prior to mechanical assembly.**
+>
+> * **Refer to the related videos:  **[1. Leader Arm ID Setting  2. Follower Arm ID Setting](https://www.youtube.com/playlist?list=PLFbzd0m6AcmIM-XiERFLJBeZHLfWMWglX)
 
 The servo names from top to bottom of the robotic arm are as follows: `gripper`, `wrist_roll`, `wrist_flex`, `elbow_flex`, `shoulder_lift`, and `shoulder_pan`, corresponding to `ID6` to `ID1`.
 
@@ -412,8 +414,6 @@ The servo names from top to bottom of the robotic arm are as follows: `gripper`,
 > [!NOTE]
 >
 > **When setting the servo ID, only one servo should be connected to the board. The signal lines of the other servos should be disconnected.**
->
-> <img src="..\_static\media\chapter_1\section_3\image_7.1.png" class="common_img" style="width:500px;"/>
 
 #### 3.1.1 Follower arm
 
