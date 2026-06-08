@@ -440,7 +440,7 @@ lerobot-setup-motors --robot.type=so101_follower --robot.port=COM24
 
 For each servo name prompt, ensure the corresponding servo `ID` is inserted individually, then press Enter for automatic setup. When the next servo name prompt appears, it indicates that the previous servo setup is complete. Repeat the connection and press Enter for subsequent servos.
 
->  [!NOTE]
+> [!NOTE]
 >
 > **Be sure to clearly label the configured ID numbers and do not mix them up. Each ID must be installed on its corresponding joint.**
 
