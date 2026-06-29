@@ -63,27 +63,13 @@ LeRobot is built on PyTorch and utilizes a modern deep learning technology stack
 
 ① Download the Miniconda Package
 
-Miniconda Official Installer
+[Miniconda Official Installer](https://repo.anaconda.com/miniconda/)
 
 Locate [Miniconda3-py311_25.7.0-2-Windows-x86_64.exe](https://drive.google.com/drive/folders/1q19iGq56PZwog_Nexgw7mtCH1Nac1kFi) and download it to your computer. Alternatively, directly use: **Software Tools \& Source Code\\Software Tools**.
 
 <img src="..\_static\media\chapter_1\section_2\image_1.png" class="common_img" style="width:400px;"/>
 
----
-
-> [!NOTE]
->
-> **For users in mainland China, it is recommended to use the Tsinghua University mirror.**
-
----
-
-Index of /anaconda/miniconda/ | Tsinghua Open Source Mirror
-
-Click the above link to download, selecting **Miniconda3-py310_25.7.0-2-Windows-x86_64.exe**.
-
-<img src="..\_static\media\chapter_1\section_2\image_2.png" class="common_img" style="width:500px;"/>
-
-②Install **Miniconda**
+② Install **Miniconda**
 
 Locate the downloaded **Miniconda** installer and double-click to install.
 
