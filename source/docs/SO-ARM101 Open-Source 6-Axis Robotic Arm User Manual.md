@@ -105,53 +105,6 @@ Locate the downloaded **Miniconda** installer and double-click to install.
 
 <img src="..\_static\media\chapter_1\section_2\image_10.png" class="common_img" style="width:600px;"/>
 
-③ Change the Package Source
-
-anaconda | Mirror Site Help | Tsinghua Open Source Mirror
-
-Click the link to access the **Miniconda** software repository and locate the third-party source highlighted in the figure below.
-
-<img src="..\_static\media\chapter_1\section_2\image_12.png" class="common_img" style="width:1200px;"/>
-
-```json
-channels:
-  - defaults
-show_channel_urls: true
-default_channels:
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
-custom_channels:
-  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
-  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
-```
-
-Press **Win + R** to open the Control Panel, type **cmd**, and open the terminal.
-
-<img src="..\_static\media\chapter_1\section_2\image_11.png" class="common_img" style="width:600px;"/>
-
-Enter the command in the terminal to generate `.condarc` file.
-
-```bash
-conda config --set show_channel_urls yes
-```
-
-<img src="..\_static\media\chapter_1\section_2\image_13.png" class="common_img" style="width:600px;"/>
-
-The `.condarc` file is generally located in the user directory, for example, `C:\Users\Admin`. Open `.condarc` and replace its contents as shown below:
-
-
-
-<img src="..\_static\media\chapter_1\section_2\image_14.png" class="common_img" style="width:600px;"/>
-
-Run the command to clear the index cache.
-
-```bash
-conda clean -i
-```
-
-<img src="..\_static\media\chapter_1\section_2\image_15.png" class="common_img" style="width:600px;"/>
-
 * **Ubuntu System Installation**
 
 ① Download the Miniconda Package
@@ -212,50 +165,7 @@ conda config --set auto_activate false
 
 <img src="..\_static\media\chapter_1\section_2\image_53.png" class="common_img" style="width:800px;"/>
 
-③ Change the Package Source
 
-anaconda | Mirror Site Help | Tsinghua Open Source Mirror
-
-Click the link to access the **Miniconda** software repository and locate the third-party source highlighted in the figure below.
-
-<img src="..\_static\media\chapter_1\section_2\image_12.png" class="common_img" style="width:1200px;"/>
-
-```json
-channels:
-  - defaults
-show_channel_urls: true
-default_channels:
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
-custom_channels:
-  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
-  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
-```
-
-Enter the command in the terminal to generate `.condarc` file.
-
-```bash
-conda config --set show_channel_urls yes
-```
-
-<img src="..\_static\media\chapter_1\section_2\image_30.png" class="common_img" style="width:700px;"/>
-
-The `.condarc` file is generally located in the user directory, for example, `/home/ubuntu`. Open `.condarc` with the `gedit` tool and enter the command to replace its contents as shown below.
-
-```
-gedit .condarc
-```
-
-<img src="..\_static\media\chapter_1\section_2\image_31.png" class="common_img" style="width:600px;"/>
-
-Run the command to clear the index cache, type **y**, and press **Enter**.
-
-```bash
-conda clean -i
-```
-
-<img src="..\_static\media\chapter_1\section_2\image_32.png" class="common_img" style="width:600px;"/>
 
 #### 2.2.2 Configure Virtual Environment
 
@@ -802,20 +712,20 @@ Press → to proceed to the next round of inference.
 
 ### 7.2. Common Issues During Inference
 
-Issue 1: Distribution Shift and Poor Generalization
+- **Issue 1: Distribution Shift and Poor Generalization**
 
-Description: The model performs well under the states it encountered during training (e.g., object position, lighting, background). However, performance drastically declines when faced with "out-of-distribution" data (slightly different situations). For example, if the training data used a white table, but inference is done on a wooden table, the robot may fail to recognize the object.
+**Description:** The model performs well under the states it encountered during training (e.g., object position, lighting, background). However, performance drastically declines when faced with "out-of-distribution" data (slightly different situations). For example, if the training data used a white table, but inference is done on a wooden table, the robot may fail to recognize the object.
 
-Reason: The model learns the static distribution of states in the training data, rather than a deep understanding of the physical world. It "remembers" rather than truly "understands" the task.
+**Reason:** The model learns the static distribution of states in the training data, rather than a deep understanding of the physical world. It "remembers" rather than truly "understands" the task.
 
-Issue 2: Compound Errors
+- **Issue 2: Compound Errors**
 
-Description: This is a classic problem in behavior cloning. In each inference step, the model introduces small motion errors. Since it operates in an open-loop with no real-time correction based on results, the next input state is the result of the previous erroneous action, deviating further from the ideal state in the training data. The errors accumulate step by step, eventually causing the robot to completely deviate from the correct trajectory and fail the task.
+**Description:** This is a classic problem in behavior cloning. In each inference step, the model introduces small motion errors. Since it operates in an open-loop with no real-time correction based on results, the next input state is the result of the previous erroneous action, deviating further from the ideal state in the training data. The errors accumulate step by step, eventually causing the robot to completely deviate from the correct trajectory and fail the task.
 
-Reason: Errors accumulate during inference, gradually leading to significant deviation from the correct path.
+**Reason:** Errors accumulate during inference, gradually leading to significant deviation from the correct path.
 
-Issue 3: Overfitting to Demonstration Style
+- **Issue 3: Overfitting to Demonstration Style**
 
-Description: The model may not only learn the necessary actions to complete the task but also the demonstrator’s personal habits or specific style (e.g., an inefficient grip posture). This rigid style may become ineffective when the environment changes.
+**Description:** The model may not only learn the necessary actions to complete the task but also the demonstrator’s personal habits or specific style (e.g., an inefficient grip posture). This rigid style may become ineffective when the environment changes.
 
-Reason: The model’s goal is to mimic the demonstration data as closely as possible, but the demonstration data may contain non-optimal or irrelevant behaviors that are not necessary for the task.
+**Reason:** The model’s goal is to mimic the demonstration data as closely as possible, but the demonstration data may contain non-optimal or irrelevant behaviors that are not necessary for the task.
