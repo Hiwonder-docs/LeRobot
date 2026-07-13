@@ -211,7 +211,7 @@ Navigate to the **lerobot** directory, install the dependencies for **lerobot**,
 
 ```bash
 cd Desktop\lerobot
-pip install -e ".[feetech]" -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -e ".[feetech]"
 ```
 
 <img src="..\_static\media\chapter_1\section_2\image_41.png" class="common_img" style="width:800px;"/>
@@ -272,7 +272,7 @@ Navigate to the **lerobot** directory, install the dependencies for **lerobot**,
 
 ```bash
 cd lerobot
-pip install -e ".[feetech]" -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -e ".[feetech]"
 ```
 
 <img src="..\_static\media\chapter_1\section_2\image_27.png" class="common_img" style="width:700px;"/>
