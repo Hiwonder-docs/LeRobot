@@ -11,8 +11,8 @@ LeRobot SO-ARM101 Open-Source 6-Axis Robotic Arm
    :maxdepth: 2
    :caption: User Manual
 
-   docs/SO-ARM101 Open-Source 6-Axis Robotic Arm User Manual.md
-   docs/resources_download.md
+   docs/SO_ARM101_Open_Source_6_Axis_Robotic_Arm_User_Manual.md
+   docs/Appendix.md
    
    Download <https://drive.google.com/drive/folders/17QlQJu2PsdpZemjYbUUrwbZgVUeDqA-D>
 
