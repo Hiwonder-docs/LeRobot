@@ -101,7 +101,7 @@ For first-time use, do not start data collection or model training directly. Com
 | 3 | 12V 5A adapter (DC5.5*2.5) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_79.png" style="width:160px" /> | 2 | 4 | USB hub (4 ports, 1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_80.png" style="width:160px" /> | 1 |
 | 5 | 2-inch G-clamp | <img class="common_img" src="../_static/media/chapter_1/section_2/image_81.png" style="width:160px" /> | 4 | 6 | Type-C cable (1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_82.png" style="width:160px" /> | 2 |
 | 7 | Servo cable (100mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_83.png" style="width:160px" /> | 1 | 8 | Servo cable (160mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_84.png" style="width:160px" /> | 1 |
-| 9 | Servo cable (200mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_85.png" style="width:160px" /> | 1 | 10 | Metal main servo horn x2 + assistant servo horn x2 | <img class="common_img" src="../_static/media/chapter_1/section_2/image_86.png" style="width:160px" /> | 1 set |
+| 9 | Servo cable (200mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_85.png" style="width:160px" /> | 1 | 10 | Metal main servo horn x2 + Assistant servo horn x2 | <img class="common_img" src="../_static/media/chapter_1/section_2/image_86.png" style="width:160px" /> | 1 set |
 | 11 | Cable tie (3*150mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_87.png" style="width:160px" /> | 10 | 12 | Screwdriver | <img class="common_img" src="../_static/media/chapter_1/section_2/image_88.png" style="width:160px" /> | 2 |
 | 13 | Accessory pack | <img class="common_img" src="../_static/media/chapter_1/section_2/image_89.png" style="width:160px" /> | 1 |  |  |  |  |
 
@@ -113,7 +113,7 @@ For first-time use, do not start data collection or model training directly. Com
 | 3 | 12V 5A adapter (DC5.5*2.5) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_79.png" style="width:160px" /> | 2 | 4 | USB hub (4 ports, 1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_80.png" style="width:160px" /> | 1 |
 | 5 | 2-inch G-clamp | <img class="common_img" src="../_static/media/chapter_1/section_2/image_81.png" style="width:160px" /> | 4 | 6 | Type-C cable (1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_82.png" style="width:160px" /> | 2 |
 | 7 | Servo cable (100mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_83.png" style="width:160px" /> | 1 | 8 | Servo cable (160mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_84.png" style="width:160px" /> | 1 |
-| 9 | Servo cable (200mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_85.png" style="width:160px" /> | 1 | 10 | Metal main servo horn x2 + assistant servo horn x2 | <img class="common_img" src="../_static/media/chapter_1/section_2/image_86.png" style="width:160px" /> | 1 set |
+| 9 | Servo cable (200mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_85.png" style="width:160px" /> | 1 | 10 | Metal main servo horn x2 + Assistant servo horn x2 | <img class="common_img" src="../_static/media/chapter_1/section_2/image_86.png" style="width:160px" /> | 1 set |
 | 11 | Cable tie (3x150mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_87.png" style="width:160px" /> | 10 | 12 | Screwdriver | <img class="common_img" src="../_static/media/chapter_1/section_2/image_88.png" style="width:160px" /> | 2 |
 | 13 | Accessory pack | <img class="common_img" src="../_static/media/chapter_1/section_2/image_89.png" style="width:160px" /> | 1 | 14 | 300K Pixel HD camera | <img class="common_img" src="../_static/media/chapter_1/section_2/image_91.png" style="width:160px" /> | 1 |
 | 15 | Camera bracket | <img class="common_img" src="../_static/media/chapter_1/section_2/image_92.png" style="width:160px" /> | 1 | 16 | USB data cable (1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_93.png" style="width:160px" /> | 1 |
@@ -126,7 +126,7 @@ For first-time use, do not start data collection or model training directly. Com
 | 3 | 12V 5A adapter (DC5.5*2.5) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_79.png" style="width:160px" /> | 2 | 4 | USB hub (4 ports, 1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_80.png" style="width:160px" /> | 1 |
 | 5 | 2-inch G-clamp | <img class="common_img" src="../_static/media/chapter_1/section_2/image_81.png" style="width:160px" /> | 4 | 6 | Type-C cable (1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_82.png" style="width:160px" /> | 2 |
 | 7 | Servo cable (100mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_83.png" style="width:160px" /> | 1 | 8 | Servo cable (160mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_84.png" style="width:160px" /> | 1 |
-| 9 | Servo cable (200mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_85.png" style="width:160px" /> | 1 | 10 | Metal main servo horn x2 + assistant servo horn x2 | <img class="common_img" src="../_static/media/chapter_1/section_2/image_86.png" style="width:160px" /> | 1 set |
+| 9 | Servo cable (200mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_85.png" style="width:160px" /> | 1 | 10 | Metal main servo horn x2 + Assistant servo horn x2 | <img class="common_img" src="../_static/media/chapter_1/section_2/image_86.png" style="width:160px" /> | 1 set |
 | 11 | Cable tie (3*150mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_87.png" style="width:160px" /> | 10 | 12 | Screwdriver | <img class="common_img" src="../_static/media/chapter_1/section_2/image_88.png" style="width:160px" /> | 2 |
 | 13 | Accessory pack | <img class="common_img" src="../_static/media/chapter_1/section_2/image_89.png" style="width:160px" /> | 1 | 14 | Camera mount | <img class="common_img" src="../_static/media/chapter_1/section_2/image_94.png" style="width:160px" /> | 1 |
 | 15 | 300K Pixel HD camera | <img class="common_img" src="../_static/media/chapter_1/section_2/image_95.png" style="width:160px" /> | 1 | 16 | 2MP HD wide-angle camera | <img class="common_img" src="../_static/media/chapter_1/section_2/image_96.png" style="width:160px" /> | 1 |
@@ -134,6 +134,8 @@ For first-time use, do not start data collection or model training directly. Com
 | 19 | USB cable (1000mm) | <img class="common_img" src="../_static/media/chapter_1/section_2/image_99.png" style="width:160px" /> | 2 |  |  |  |  |
 
 
+
+<p id="22-environment-configuration"></p>
 
 ### 2.2 Environment Configuration
 
@@ -405,6 +407,8 @@ Refer to the related video path: [1. Tutorials\Video Tutorials\3.3 Camera Instal
 
 Refer to the related video path: [1. Tutorials\Video Tutorials\3.4 Circuit Connection Tutorial](https://drive.google.com/drive/folders/1bohRZgWKNnFfbfGrtFSwXgSWHF2A1B5c?usp=sharing)
 
+<p id="34-check-the-port-number"></p>
+
 ### 3.4 Check the Port Number
 
 > [!NOTE]
@@ -431,6 +435,8 @@ Refer to the related video path: [1. Tutorials\Video Tutorials\3.4 Circuit Conne
 
 <img src="../_static/media/chapter_1/section_3/image_12.png" class="common_img" style="width:500px;"/>
 
+<p id="35-servo-id-setting-optional"></p>
+
 ### 3.5 Servo ID Setting (Optional)
 
 > [!NOTE]
@@ -447,6 +453,8 @@ The servo names from top to bottom of the robotic arm are `gripper`, `wrist_roll
 > [!NOTE]
 >
 > **When setting servo IDs, keep only one servo connected to the control board and unplug the other daisy-chained signal cables. Otherwise, multiple servos may be written with the same ID, causing abnormal calibration and control later.**
+
+<p id="351-leader-arm-id-setting"></p>
 
 #### 3.5.1 Leader Arm ID Setting
 
@@ -493,6 +501,8 @@ lerobot-setup-motors --robot.type=so101_follower --robot.port=COM24
 
 Control the robotic arm in the recommended order: calibration, teleoperation without vision, and teleoperation with vision. Calibration establishes the joint position correspondence between the leader and follower arms. Run teleoperation without vision first to confirm that the motion direction and port settings are correct, then connect the cameras. This avoids troubleshooting multiple issues at the same time during vision-based collection.
 
+<p id="41-robotic-arm-calibration"></p>
+
 ### 4.1 Robotic Arm Calibration
 
 > [!NOTE]
@@ -500,6 +510,8 @@ Control the robotic arm in the recommended order: calibration, teleoperation wit
 > **Before calibration and teleoperation, make sure there are no obstacles around the robotic arm. If an exception occurs during operation, press `Ctrl+C` in the terminal to exit the program.**
 
 Calibrate the robotic arm to ensure that the leader and follower arms maintain the same joint position values when they are in the same physical position.
+
+<p id="411-leader-arm-calibration"></p>
 
 #### 4.1.1 Leader Arm Calibration
 
@@ -535,6 +547,8 @@ lerobot-calibrate --robot.type=so101_follower --robot.port=COM24 --robot.id=my_a
 
 <img src="../_static/media/chapter_1/section_4/image_15.png" class="common_img" style="width:800px;"/>
 
+<p id="42-teleoperation-without-vision"></p>
+
 ### 4.2 Teleoperation Without Vision
 
 Enter the command to start robotic arm teleoperation.
@@ -555,19 +569,18 @@ When the interface shown below appears, control the follower arm through the lea
 
 Press **Ctrl+C** to terminate the program.
 
+<p id="43-teleoperation-with-vision"></p>
+
 ### 4.3 Teleoperation With Vision
 
 Connect the USB cables of both cameras to the computer.
 
----
-
 > [!NOTE]
 >
-> **1. If a docking station is used, do not connect both camera USB cables to the docking station.**
+> - **If a docking station is used, do not connect both camera USB cables to the docking station.**
 >
-> **2. The fixed environment camera must capture the full motion range of the follower arm.**
+> - **The fixed environment camera must capture the full motion range of the follower arm.**
 
----
 
 Enter the command to find the camera `ID` values and check whether images from both cameras can be captured.
 
@@ -615,6 +628,8 @@ When the leader arm controls the follower arm, the system returns the camera fee
 
 <img src="../_static/media/chapter_1/section_4/image_12.png" class="common_img" style="width:600px;"/>
 
+<p id="5-data-acquisition"></p>
+
 ## 5. Data Acquisition
 
 After teleoperation verification is complete, begin collecting training data. Data quality directly affects later model training results. Before each recording round, confirm the camera view, lighting, target object position, and robotic arm initial position.
@@ -630,15 +645,15 @@ Data acquisition steps:
 
 > [!NOTE]
 >
-> **Data acquisition time reference: **Starting the collection program and initializing the robotic arm and cameras usually takes 20 to 60 seconds. The total duration of each data round consists of the demonstration action, environment reset, and data saving. The saving stage usually takes several seconds to several tens of seconds. For 20 rounds of data, reserve at least 30 to 90 minutes and prepare enough desktop space and stable lighting before starting.
+> **Data acquisition time reference:** Starting the collection program and initializing the robotic arm and cameras usually takes 20 to 60 seconds. The total duration of each data round consists of the demonstration action, environment reset, and data saving. The saving stage usually takes several seconds to several tens of seconds. For 20 rounds of data, reserve at least 30 to 90 minutes and prepare enough desktop space and stable lighting before starting.
 
 Run the command for data acquisition. `${HF_USER}` can be changed as needed, but the account name must be in English. This example collects 20 episodes. To collect more episodes, change `20` in `dataset.num_episodes=20` to the target count.
 
 > [!NOTE]
 >
-> **1. Before data acquisition, practice controlling the robotic arm until it can complete the grasping action smoothly. This avoids inaccurate data caused by improper operation.**
+> - **Before data acquisition, practice controlling the robotic arm until it can complete the grasping action smoothly. This avoids inaccurate data caused by improper operation.**
 >
-> **2. In the command, `${HF_USER}` can be replaced directly with an English account name. For example, change `--dataset.repo_id=${HF_USER}/demo` to `--dataset.repo_id=Admin/demo`.**
+> - **In the command, `${HF_USER}` can be replaced directly with an English account name. For example, change `--dataset.repo_id=${HF_USER}/demo` to `--dataset.repo_id=Admin/demo`.**
 
 ```cmd
 python -m lerobot.record --robot.type=so101_follower --robot.port=COM24 --robot.id=my_awesome_follower_arm --robot.cameras="{ handeye: {type: opencv, index_or_path: 0, width: 640, height: 480, fps: 30}, front: {type: opencv, index_or_path: 1, width: 640, height: 480, fps: 30}}" --teleop.type=so101_leader --teleop.port=COM22 --teleop.id=my_awesome_leader_arm --display_data=true --dataset.repo_id=${HF_USER}/demo --dataset.num_episodes=20 --dataset.single_task="Grab the screwdriver" --dataset.push_to_hub=false
@@ -688,9 +703,13 @@ Data is saved by default in `C:\Users\Admin\.cache\huggingface\lerobot`.
 
 
 
+<p id="6-dataset-training"></p>
+
 ## 6. Dataset Training
 
 Local training is recommended on a computer with a discrete GPU and a CUDA environment. Before training the dataset, confirm that the dataset has been collected and can be found in the default cache directory.
+
+<p id="61-local-training"></p>
 
 ### 6.1 Local Training
 
@@ -714,7 +733,7 @@ cd .\Desktop\lerobot\
 Before training, enter the command to install the dependencies required for training.
 
 ```cmd
-python -m pip install -e ".[training]" -i https://pypi.tuna.tsinghua.edu.cn/simple
+python -m pip install -e ".[training]"
 ```
 
 Installing training dependencies for the first time usually takes about 5 to 20 minutes. Several Python packages will be downloaded during installation. Wait patiently if the network is slow. Repeated installation usually uses the local cache first and takes less time.
@@ -792,6 +811,8 @@ Inference deployment steps:
 5. Execute policy inference and robot control in the control loop.
 6. Optional real-time visualization and monitoring.
 
+<p id="71-real-time-inference-testing"></p>
+
 ### 7.1 Real-Time Inference Testing
 
 Press **Win+R**, enter **cmd**, and open the terminal.
@@ -811,11 +832,11 @@ Enter the command to start inference. During the first startup, the program load
 
 > [!NOTE]
 >
-> **1. In `outputs/train/act_so101_test/checkpoints/100000/pretrained_model`, `100000` is the configured `steps` parameter, which is the total number of training steps. To use the model saved from the final training checkpoint, change `"100000"` to `"last"`.**
+> - **In `outputs/train/act_so101_test/checkpoints/100000/pretrained_model`, `100000` is the configured `steps` parameter, which is the total number of training steps. To use the model saved from the final training checkpoint, change `"100000"` to `"last"`.**
 >
-> **2. Before inference, confirm that the camera `ID` values, leader/follower arm port numbers, and training model path all match the current computer environment. If USB devices have been reconnected, find the port numbers and camera `ID` values again first.**
+> - **Before inference, confirm that the camera `ID` values, leader/follower arm port numbers, and training model path all match the current computer environment. If USB devices have been reconnected, find the port numbers and camera `ID` values again first.**
 >
-> **3. `dataset.episode_time_s=60` indicates that a single inference or evaluation lasts 60 seconds. Increase this parameter for longer tasks, or decrease it for short tests.**
+> - **`dataset.episode_time_s=60` indicates that a single inference or evaluation lasts 60 seconds. Increase this parameter for longer tasks, or decrease it for short tests.**
 
 ```cmd
 python -m lerobot.record --robot.type=so101_follower --robot.port=COM24 --robot.id=my_awesome_follower_arm --robot.cameras="{ handeye: {type: opencv, index_or_path: 0, width: 640, height: 480, fps: 30}, front: {type: opencv, index_or_path: 1, width: 640, height: 480, fps: 30}}" --display_data=true --dataset.repo_id=${HF_USER}/eval_so101 --dataset.single_task="Grab the screwdriver" --policy.path=outputs/train/act_so101_test/checkpoints/100000/pretrained_model --dataset.episode_time_s=60
